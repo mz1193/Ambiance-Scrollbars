@@ -14,7 +14,7 @@
 }
 
 .nemo-window .sidebar .view:backdrop {
-  background-color: @theme_bg_color;
+  background-color: shade (@theme_bg_color, .95);
   color: @theme_fg_color;
 }
 
