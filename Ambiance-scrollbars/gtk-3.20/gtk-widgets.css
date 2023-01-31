@@ -1974,7 +1974,7 @@ scrollbar.horizontal slider { min-width: 40px; }
 
 scrollbar.vertical slider { min-height: 40px; }
 
-scrollbar button { padding: 3; min-width: 12px; min-height: 12px; border-style: none; border-radius: 0; transition-property: min-height, min-width, color; border-color: transparent; background-color: transparent; background-image: none; box-shadow: inset 0 1px rgba(255, 255, 255, 0); text-shadow: none; -gtk-icon-shadow: none; color: #000000; }
+scrollbar button { padding: 3px; min-width: 12px; min-height: 12px; border-style: none; border-radius: 0; transition-property: min-height, min-width, color; border-color: transparent; background-color: transparent; background-image: none; box-shadow: inset 0 1px rgba(255, 255, 255, 0); text-shadow: none; -gtk-icon-shadow: none; color: #000000; }
 
 scrollbar button:hover { border-color: transparent; background-color: transparent; background-image: none; box-shadow: inset 0 1px rgba(255, 255, 255, 0); text-shadow: none; -gtk-icon-shadow: none; color: #595959; }
 
@@ -2035,7 +2035,7 @@ scrollbar.horizontal:active {
 
 scrollbar trough {
     border-style: solid;
-    border-radius: 10;
+    border-radius: 10px;
     border-image: none;
 	border-color: #b3b3b3;
 	background-image: radial-gradient(at center, #e0e0e0, #e8e8e8);
